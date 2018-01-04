@@ -3,16 +3,16 @@ This will parse diameter interface (Client and Server) packet capture and calcul
 
 Main.sh
 -------
-## Script will count bytes from diameter interfaces like PGW, CCF etc.
-## It accepts packet captures from above interfaces
-## And it accepts server port - ccf port
+Script will count bytes from diameter interfaces like PGW, CCF etc.
+It accepts packet captures from above interfaces
+And it accepts server port - ccf port
 
 Usage: ./Main.sh <Pgw pcap> <Client pcap> <CCF pcap> <CCF Port>
   
 diameterTrace.py
 ----------------
-## Script will count Client & server side Accounting input/ouput octets
-## Script accepts Client, server side pcaps and server port as the input
-## Output will be sum of Client/Server, Accounting input/output bytes
+Script will count Client & server side Accounting input/ouput octets
+Script accepts Client, server side pcaps and server port as the input
+Output will be sum of Client/Server, Accounting input/output bytes
 
 It automatically takes input as "graph-mdn-sessionCount.txt" file (This is having byte records), and plot the graph.
